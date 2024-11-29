@@ -1,0 +1,88 @@
+.navbar ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: centre;
+    padding: 0%;
+    display: inline-block;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
