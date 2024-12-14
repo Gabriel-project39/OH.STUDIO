@@ -30,9 +30,14 @@ h1{
     overflow: auto;
     margin: auto;
     max-width: 700px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,2);
     grid-auto-rows :auto;
     gap: 10px;
+    frame.SetLayout(new GridLayout(2,2))
+}
+.container img{
+    grid-template-columns: repeat(2, 1fr);
+    border: 10px;
 }
 
 
