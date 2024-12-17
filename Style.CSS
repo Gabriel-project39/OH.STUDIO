@@ -18,8 +18,10 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
-h1{
+h1,h2,h3{
     justify-content: center;
     display: flex;
     margin: 10px 15px;
@@ -29,15 +31,21 @@ h1{
     flex: auto;
     overflow: auto;
     margin: auto;
-    max-width: 700px;
     grid-template-columns: repeat(2,2);
     grid-auto-rows :auto;
-    gap: 10px;
-    frame.SetLayout(new GridLayout(2,2))
+    max-width: 900px;
+    column-gap: 1em;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
 }
 .container img{
     grid-template-columns: repeat(2, 1fr);
     border: 10px;
+    border-radius: 15px;
+}
+.container video{
+    border-radius: 15px;
 }
 
 
