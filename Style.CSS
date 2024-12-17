@@ -34,7 +34,7 @@ h1,h2,h3{
     grid-template-columns: repeat(2,2);
     grid-auto-rows :auto;
     max-width: 900px;
-    column-gap: 1em;
+    min-width: 100px;
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -47,6 +47,10 @@ h1,h2,h3{
 .container video{
     border-radius: 15px;
 }
+.footer ul{
+    float: right;
+}
+
 
 
 
