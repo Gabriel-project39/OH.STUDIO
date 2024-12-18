@@ -47,10 +47,43 @@ h1,h2,h3{
 .container video{
     border-radius: 15px;
 }
-.footer ul{
-    float: right;
-}
 
+.cul a {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  
+  .cul {
+    position: absolute;
+    top: 25px; 
+    right: 10px;
+    text-align: right;
+  }
+  
+  .cul ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cul li {
+    display: inline-block;
+    margin-left: 15px; 
+  }
+  
+  
+  footer {
+    position: relative;
+    padding: 10px;
+  }
+  
+  
+  
+
+
+  
+  
 
 
 
