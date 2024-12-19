@@ -27,6 +27,9 @@ h1,h2,h3{
     margin: 10px 15px;
     text-align: center;
 }
+h3{
+  background-color: white
+}
 .container{
     flex: auto;
     overflow: auto;
@@ -78,8 +81,21 @@ h1,h2,h3{
     padding: 10px;
   }
   
-  
-  
+  /* MEDIA QUERIES */
+  /* tablet */
+  @media screen and (Max-width: 780px){
+    footer {
+      position: relative;
+      padding: 10px;
+      justify-content: center;
+    }
+
+  .cul {
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+  }
+}
   
 
 
