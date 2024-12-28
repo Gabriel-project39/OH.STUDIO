@@ -99,7 +99,12 @@ h3{
     justify-content: center;
     text-align: center;
   }
-
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+   }
 
 
   
