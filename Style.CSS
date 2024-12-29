@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
 }
-
+.navbar{
+  border-radius: 50px;
+}
 .navbar a{
     text-decoration: none;
     text-align: centre;
