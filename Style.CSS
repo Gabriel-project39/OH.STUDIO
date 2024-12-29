@@ -51,6 +51,10 @@ h3{
     border-radius: 15px;
 }
 
+h3{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: lightgrey;
+}
 .cul a {
     text-decoration: none;
     color: inherit; 
