@@ -89,7 +89,7 @@ h3{
   
   /* MEDIA QUERIES */
   /* tablet * *phones*/
-  @media screen and (Max-width: 780px){
+  @media screen and (Max-width: 700px){
     footer {
       position: relative;
       padding: 10px;
