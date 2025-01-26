@@ -6,8 +6,33 @@
     display: flex;
     justify-content: center;
 }
+nav{
+  display: flex;
+  top: 40px;
+  position: relative;
+  justify-content: center;
+  background-color: rgba(243, 242, 241, 0.85);
+  padding: 14px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  position: fixed;
+}
+nav1{
+  padding: 14px 20px;
+  margin: 10px 15px;
+  text-align: justify;
+  gap: 15px;
+}
+  
+  nav1 ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
 .navbar{
   border-radius: 50px;
+  position: static;
 }
 .navbar a{
     text-decoration: none;
@@ -16,12 +41,14 @@
     display: inline-block;
     justify-content: center;
 }
+
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 15px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+    position: relative;
 }
 h1,h2,h3{
     justify-content: center;
