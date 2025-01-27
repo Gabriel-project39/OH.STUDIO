@@ -5,6 +5,11 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    position: ;
+    
+}
+.navbar{
+  position: fixed;
 }
 nav{
   display: flex;
@@ -16,7 +21,7 @@ nav{
   border-radius: 10px;
   width: fit-content;
   margin: 0 auto;
-  position: fixed;
+  position: sticky;
 }
 nav1{
   padding: 14px 20px;
@@ -40,6 +45,7 @@ nav1{
     padding: 0%;
     display: inline-block;
     justify-content: center;
+    position: sticky;
 }
 
 nav ul li{
@@ -48,7 +54,8 @@ nav ul li{
     margin: 10px 15px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    position: relative;
+    position: sticky; 
+    padding: 14px 20px;
 }
 h1,h2,h3{
     justify-content: center;
