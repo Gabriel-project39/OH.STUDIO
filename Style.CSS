@@ -5,19 +5,16 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    position: ;
     
 }
-.navbar{
-  position: fixed;
-}
+
 nav{
   display: flex;
   top: 40px;
   position: relative;
   justify-content: center;
   background-color: rgba(243, 242, 241, 0.85);
-  padding: 14px 20px;
+  padding: 5px 5px;
   border-radius: 10px;
   width: fit-content;
   margin: 0 auto;
@@ -36,8 +33,8 @@ nav1{
   margin: 10px 15px;
 }
 .navbar{
-  border-radius: 50px;
-  position: static;
+  border-radius: 10px;
+  position: sticky;
 }
 .navbar a{
     text-decoration: none;
@@ -56,12 +53,16 @@ nav ul li{
     font-size: 14px;
     position: sticky; 
     padding: 14px 20px;
+    position: sticky;
 }
 h1,h2,h3{
     justify-content: center;
     display: flex;
     margin: 10px 15px;
     text-align: center;
+    font-size: 70px;
+    top: 100px;
+    padding: 50px 50px;
 }
 h3{
   background-color: white
