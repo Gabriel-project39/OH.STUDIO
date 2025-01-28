@@ -5,7 +5,6 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    
 }
 
 nav{
@@ -15,7 +14,7 @@ nav{
   justify-content: center;
   background-color: rgba(243, 242, 241, 0.85);
   padding: 5px 5px;
-  border-radius: 10px;
+  border-radius: 1px;
   width: fit-content;
   margin: 0 auto;
   position: sticky;
@@ -33,7 +32,7 @@ nav1{
   margin: 10px 15px;
 }
 .navbar{
-  border-radius: 10px;
+  border-radius: 100px;
   position: sticky;
 }
 .navbar a{
@@ -43,6 +42,7 @@ nav1{
     display: inline-block;
     justify-content: center;
     position: sticky;
+    border-radius: 15px;
 }
 
 nav ul li{
@@ -52,8 +52,9 @@ nav ul li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     position: sticky; 
-    padding: 14px 20px;
+    padding: 4px 10px;
     position: sticky;
+    border-radius: 1px;
 }
 h1,h2,h3{
     justify-content: center;
