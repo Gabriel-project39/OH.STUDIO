@@ -19,6 +19,9 @@ nav{
   margin: 0 auto;
   position: sticky;
 }
+.profile.html{
+  color: white;
+}
 nav1{
   padding: 14px 20px;
   margin: 10px 15px;
